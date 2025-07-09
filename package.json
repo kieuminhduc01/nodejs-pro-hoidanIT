@@ -1,0 +1,23 @@
+{
+  "name": "source-code",
+  "version": "1.0.0",
+  "description": "source-code node js pro",
+  "keywords": [
+    "nodejs-pro"
+  ],
+  "homepage": "https://github.com/kieuminhduc01/nodejs-pro-hoidanIT#readme",
+  "bugs": {
+    "url": "https://github.com/kieuminhduc01/nodejs-pro-hoidanIT/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kieuminhduc01/nodejs-pro-hoidanIT.git"
+  },
+  "license": "ISC",
+  "author": "Henry",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
