@@ -4,8 +4,13 @@ import webRoutes from './routes/web';
 
 const app = express();
 
-app.set('view engine','ejs');
-app.set('views',`${__dirname}/views/`);
+app.set('view engine', 'ejs');
+app.set('views', `${__dirname}/views/`);
+
+// config send payload to controller
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 app.use(express.static('public'));
 
 webRoutes(app);
